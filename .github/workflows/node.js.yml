@@ -28,5 +28,5 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: cd testcase-vite
-    - run: npm i
+    - name: Install dependencies
     - run: npm test
